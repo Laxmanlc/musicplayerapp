@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:musicplayer/first_page.dart';
+import 'package:musicplayer/page/first_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

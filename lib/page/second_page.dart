@@ -1,8 +1,8 @@
 import 'package:audio_video_progress_bar/audio_video_progress_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:musicplayer/audio_player_service.dart';
-import 'package:musicplayer/color.dart';
+import 'package:musicplayer/service/audio_player_service.dart';
+import 'package:musicplayer/utils/color.dart';
 
 class Secondpagees extends StatefulWidget {
   final String songUrl;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:musicplayer/audio_player_service.dart';
-import 'package:musicplayer/color.dart';
-import 'package:musicplayer/second_page.dart';
-import 'package:musicplayer/strings.dart';
+import 'package:musicplayer/service/audio_player_service.dart';
+import 'package:musicplayer/utils/color.dart';
+import 'package:musicplayer/page/second_page.dart';
+import 'package:musicplayer/utils/strings.dart';
 
 class FirstPagees extends StatefulWidget {
   const FirstPagees({super.key});
