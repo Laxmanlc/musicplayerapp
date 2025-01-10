@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:musicplayer/audio_player_service.dart';
 import 'package:musicplayer/color.dart';
 import 'package:musicplayer/second_page.dart';
+import 'package:musicplayer/strings.dart';
 
 class FirstPagees extends StatefulWidget {
   const FirstPagees({super.key});
@@ -16,28 +17,6 @@ class _FirstPageesState extends State<FirstPagees> {
 
   @override
   Widget build(BuildContext context) {
-    List<String> artistNames = [
-      "LAKEY INSPIRED",
-      "Kevin MacLeod",
-      "Cheel",
-      "Joakim Karud",
-      "Eveningland",
-    ];
-    List<String> songNames = [
-      "Better Days",
-      "On My Way",
-      "Sunset Dream",
-      "Dreams",
-      "Nimbus",
-    ];
-    List<String> songUrls = [
-      "firstglance.mp3",
-      "whisper.mp3",
-      "spring.mp3",
-      "spring.mp3",
-      "spring.mp3",
-    ];
-
     return Scaffold(
       backgroundColor: purpleColor,
       appBar: AppBar(
